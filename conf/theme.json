@@ -1,0 +1,10 @@
+{
+    "font": "Monaco",
+    "theme": "rrt",
+    "theme_color": "#000000",
+    "appearance": "dark",
+    "font_size": 16,
+    "terminal_theme": "Ubuntu",
+    "language": "zh_CN",
+    "version": "2.3.0"
+}

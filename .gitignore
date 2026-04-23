@@ -1,0 +1,118 @@
+# Public repo target:
+# keep only runtime source, README, license, pyproject and runtime help docs.
+
+# Python cache and native extensions
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+__pypackages__/
+.python-version
+
+# Tool caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+.hypothesis/
+.tox/
+.nox/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# Build outputs
+build/
+dist/
+release/
+site/
+pip-wheel-metadata/
+.eggs/
+*.egg-info/
+*.egg
+MANIFEST
+
+# PyInstaller / Nuitka
+*.manifest
+*.spec
+*.build/
+*.dist/
+*.onefile-build/
+neko_shell.build/
+neko_shell.dist/
+
+# Logs and local runtime files
+logs/
+*.log
+config.dat
+conf/config.dat
+frp/
+*.frp
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+*.bak
+*.backup
+*.swp
+*.swo
+*.swn
+*~
+\#*\#
+
+# IDE / editor
+.vscode/
+*.code-workspace
+.idea/
+*.iml
+.spyderproject
+.spyproject
+.ropeproject
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+.TemporaryItems
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+.directory
+
+# Local-only project materials, kept out of public repo
+/legacy/
+/packaging/
+/scripts/
+/tests/
+/docs/DEVELOPMENT.md
+/docs/RELEASE_*.md
+/docs/images/
+/icons/
+/test/
+/Pipfile
+/Pipfile.lock
+/app.sh
+/build-exe.bat
+/deploy-install.bat
+/installer.iss
